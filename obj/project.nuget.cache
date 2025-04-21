@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IBVv8suBzuOsOGCrqMZ1YRJ21od1xyMVPthrmVXXgAJlgB64G9SY+PEJDf4W5uTNY5XjShgdrjRcV5IxAGxEEw==",
+  "dgSpecHash": "hExC8dH2r9jFDHsk7KnklYbtkkP3v2euerqETWysGnegdSkoDC88xSqehcYj21qDVfXnkabt3VR5CsBOpES9kA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj",
+  "projectFilePath": "C:\\TrustBanc And Other files\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\firebaseadmin\\3.0.0\\firebaseadmin.3.0.0.nupkg.sha512",
@@ -92,6 +92,7 @@
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\scriban\\5.0.0\\scriban.5.0.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\serilog.aspnetcore\\8.0.2\\serilog.aspnetcore.8.0.2.nupkg.sha512",
@@ -216,14 +217,15 @@
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Novell.Directory.Ldap 2.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Novell.Directory.Ldap 2.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Novell.Directory.Ldap",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

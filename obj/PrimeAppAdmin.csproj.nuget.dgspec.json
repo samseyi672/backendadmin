@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj": {}
+    "C:\\TrustBanc And Other files\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj": {
+    "C:\\TrustBanc And Other files\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj",
+        "projectUniqueName": "C:\\TrustBanc And Other files\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj",
         "projectName": "PrimeAppAdmin",
-        "projectPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj",
+        "projectPath": "C:\\TrustBanc And Other files\\dotapps\\PrimeAppAdmin\\PrimeAppAdmin.csproj",
         "packagesPath": "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\PrimeAppAdmin\\obj\\",
+        "outputPath": "C:\\TrustBanc And Other files\\dotapps\\PrimeAppAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samson.oluwaseyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj": {
-                "projectPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj"
+              "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj": {
+                "projectPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj"
               },
-              "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj": {
-                "projectPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj"
+              "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj": {
+                "projectPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj"
               }
             }
           }
@@ -98,11 +98,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -111,18 +116,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj": {
+    "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj",
+        "projectUniqueName": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj",
         "projectName": "Retailbanking.BL",
-        "projectPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj",
+        "projectPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.BL\\Retailbanking.BL.csproj",
         "packagesPath": "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.BL\\obj\\",
+        "outputPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samson.oluwaseyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,8 +144,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj": {
-                "projectPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj"
+              "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj": {
+                "projectPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj"
               }
             }
           }
@@ -203,6 +208,10 @@
               "target": "Package",
               "version": "[106.13.0, )"
             },
+            "Scriban": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -230,8 +239,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -240,18 +248,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj": {
+    "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj",
+        "projectUniqueName": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj",
         "projectName": "Retailbanking.Common",
-        "projectPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj",
+        "projectPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\Retailbanking.Common.csproj",
         "packagesPath": "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samson.oluwaseyi\\Documents\\dotapps\\Retailbanking\\Retailbanking.Common\\obj\\",
+        "outputPath": "C:\\TrustBanc And Other files\\dotapps\\Retailbanking\\Retailbanking.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samson.oluwaseyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -299,8 +307,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -309,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
