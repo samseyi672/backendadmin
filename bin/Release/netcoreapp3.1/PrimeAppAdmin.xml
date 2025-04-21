@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrimeAppAdmin</name>
+    </assembly>
+    <members>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.KycSignatureAcceptance(Retailbanking.Common.CustomObj.KycSignature)">
+            <summary>
+             set image status to false
+             when it is no longer needed.
+             permission- acceptkyc,rejectkyc
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.CheckKyC(System.String)">
+            <summary>
+             View user kyc status 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.GetAndViewUserKyc(System.String)">
+            <summary>
+             Get employmentinfo
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.GetKycNextOfKinInfo(System.String)">
+            <summary>
+             Get kyc nextofkininfo
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.KycIdCardAcceptance(Retailbanking.Common.CustomObj.KycidCard)">
+            <summary>
+             set image status to false
+             when it is no longer needed.
+             permission- acceptkyc,rejectkyc
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.KycPassportAcceptance(Retailbanking.Common.CustomObj.KycPassport)">
+            <summary>
+             set image status to false
+             when it is no longer needed.
+             permission- acceptkyc,rejectkyc
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.KycUtlityBillAcceptance(Retailbanking.Common.CustomObj.KycUtlityBill)">
+            <summary>
+             set image status to false
+             when it is no longer needed.
+             permission- acceptkyc,rejectkyc
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.KyCController.KycAcceptance(Retailbanking.Common.CustomObj.Kyc)">
+            <summary>
+            Initiation kyc acceptance or rejection
+             permission- acceptkyc,rejectkyc
+             for utilitybill,passport,idcard,signature
+             set status as accept or reject
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PinManagementController.InitiatePinApproval(System.String,System.String)">
+            <summary>
+            action= initiatepinapproval
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PinManagementController.PinApproval(Retailbanking.Common.CustomObj.PinApproval)">
+            <summary>
+            approveordeny can be either approve or deny
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PinManagementController.GetListOfInitiatedPinApproval(System.Int32,System.Int32)">
+            <summary>
+            Get List Of InitiatedPinApproval
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PlatformSuspensionController.getPlatformSuspensionStatus">
+            <summary>
+            Get suspension status of the platform
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PlatformSuspensionController.SetPlatformLogin(System.Boolean)">
+            <summary>
+            Set suspension status of the platform for login
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PlatformSuspensionController.SetPlatformTransaction(System.Boolean)">
+            <summary>
+            Set suspension status of the platform for transaction
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PlatformSuspensionController.SetPlatformBills(System.Boolean)">
+            <summary>
+            Set suspension status of the platform for bills
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeInvestmentController.GetActiveFixedDepositInvestment(System.String)">
+            <summary>
+            Get mobile Active FixedDeposit or Halal Investment
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeInvestmentController.GetAllFixedDepositOrHalalaInvestmentHistory(System.String,System.String)">
+            <summary>
+            FixedDeposit or Halal Investment history.
+            This will fetch all with status: Active, underprocessing,and liquidated
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeInvestmentController.GetMutualFundInvesment(System.String)">
+            <summary>
+            Get Prime Mutualfund
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeLoanController.GetRetailLoan(System.String)">
+            <summary>
+            Get Retail loan
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeLoanController.GetPublicSectorLoan(System.String)">
+            <summary>
+            Get public sector loan
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetAllMobileUsers(System.Int32,System.Int32)">
+            <summary>
+            Get All Users Registered on Mobile
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.SearchUserByName(System.String)">
+            <summary>
+            Search user by name
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.SearchUserByBvn(System.String)">
+            <summary>
+            Search user by bvn
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetUserAccountDetailsWithKycLevel(System.String)">
+            <summary>
+            Get account details with account tier
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetAndViewUserKycDocument(System.String)">
+            <summary>
+             This is use to view a user kyc documents if it is permitted
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.BrowserView(System.String)">
+            <summary>
+             View a file on server
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.AdvertBrowserView(System.String)">
+            <summary>
+             View a file on server
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.FileView(System.String)">
+            <summary>
+             View pdf file 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.InitiateActivateACustomer(System.String)">
+            <summary>
+             Activate a user
+             permission-initiatecustomeractivation
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.InitiateDeactivateCustomer(System.String)">
+            <summary>
+             Deactivate a user
+             permission-initiatecustomerdeactivation
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetCountOfTransactionFortheMonth">
+            <summary>
+             Get Count of Transaction for the Month
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.UpgradeAccount(System.String,Retailbanking.Common.CustomObj.UpgradeAccountNo)">
+            <summary>
+             Upgrade Customer Account
+             permission-upgradeaccount
+             dont use this anymore
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.ApproveAccountUpgrade(Retailbanking.Common.CustomObj.ApproveAccountUpgrade)">
+            <summary>
+            approveordeny can either be approve or deny
+            shortdescription is needed for kyc otherwise just pass empty string
+            permission -approveaccountupgrade
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.Initiateupgradeaccount(System.String,System.String,System.String)">
+            <summary>
+             Upgrade Customer Account
+             permission-Initiateupgradeaccount
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetPendingAccountTobeUpgraded">
+            <summary>
+             Get list of pending account to be upgraded
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.AddAdvertImageOrPictures(System.Boolean,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+             Add Advert/Promo Image/pictures
+             role-admin,Initiator
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetAdvertImagesorPromoImage(System.Int32,System.Int32)">
+            <summary>
+             Get Advert/Promo Image/pictures
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.DeleteAdvertImagesorPromoImage(System.Collections.Generic.List{System.Int32})">
+            <summary>
+             Delete Advert/Promo Image/pictures
+             role-admin,Authorizer
+            </summary>
+            <param name="ids">A list of image IDs to delete.[1,2,3]</param>
+            <returns>A response indicating success or failure.</returns>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.EditAdvertImagesorPromoImage(System.Collections.Generic.List{Retailbanking.Common.DbObj.ImageUpdate})">
+            <summary>
+             set image status to false
+             when it is no longer needed.
+             role-admin,Authorizer
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetMobileActiveAndInActiveCustomer">
+            <summary>
+             mobile channel only
+             To get customers that are not active in order to follow up on them
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetTransactionsReported">
+            <summary>
+             mobile channel only.
+             To get reported transactions
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.FixReportedTransactions(System.String,System.String)">
+            <summary>
+             mobile channel only.
+             To set reported transactions as fixed
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.UpdateReportedTransactionStatus(System.String,System.String,System.Int32)">
+            <summary>
+             mobile channel only.
+             To update reported transactions  status
+             PASS 1 for UNDER_INVESTIGATION for CheckedStatus
+             PASS 2 for  RESOLVED for CheckedStatus
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetAllCustomerAccountBalance(System.String)">
+            <summary>
+            Get a user account balance details
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetAUserMobileTrasanctionHistory(System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Get Mobile trans history.date format(dd-MM-yyyy)
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetPendingKycCount">
+            <summary>
+            Get pending kyc counter
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetPendingAccountLimitUpdate">
+            <summary>
+            Get Pending AccountLimitUpdate
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetCustomerAccountLimitUpdate(System.String)">
+            <summary>
+            Get CustomerAccountLimit/CustomerIndemnity details of customer
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetPendingCustomerAccountLimitUpdate">
+            <summary>
+            Get Pending CustomerIndemnity username initiated by customer
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.CustomerAccountIndemnityLimitAcceptance(System.String)">
+            <summary>
+             Initiate customer indemnitylimit.
+             permission-initiatecustomerindemnity.
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.AccountIndemnityLimitAcceptance(System.String,System.String)">
+            <summary>
+             Initiate account indemnitylimit.
+             permission-initiateaccountindemnitylimit
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.IndemnityFormUploadForCustomer(System.String,Retailbanking.Common.CustomObj.BackofficeIndemnityForm,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            upload customer indemnity form from back office.
+            Pass the form with this name-indemnityform along with the request body.
+            Note that this is form-data
+            for IndemnityType use either accountindemnity or customerindemnity
+            permission- indemnityformentryofficer
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.SetPendingCustomerAccountLimitUpdateAsTreated(System.String)">
+            <summary>
+            Set limit as approved for customer . final leg . 
+            role-Authorizer
+            not in use anymore
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.GetPendingKyc">
+            <summary>
+            Get Pending kyc list 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.SetPendingKycAsTreated(System.String)">
+            <summary>
+            Set Pending kyc as treated 
+            role-Authorizer
+            not in use anymore
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.FetchUser(System.String)">
+            <summary>
+            Get user details by username
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.PrimeUserController.UpdatePhoneNumberAndEmail(System.String,System.String,System.String)">
+            <summary>
+            Update PhoneNumber and Email from Core banking
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.LoginStaff(Retailbanking.Common.CustomObj.StaffLoginRequest)">
+            <summary>
+            Staff Login
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetAllusers(System.Int32,System.Int32)">
+            <summary>
+            Staff get all users from Ad
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.SearchStaffUsers(System.String)">
+            <summary>
+            Search users from Ad
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ProfileStaff(Retailbanking.Common.CustomObj.ProfileStaff)">
+            <summary>
+            Profile Staff or Update Staff role and permissions
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.InitiationDeleteActionOnStaffProfile(System.Int32,System.String)">
+            <summary>
+            staff profile inititiation.
+            pass the staffid to actiontopass.
+            these are the actions you can pass: 
+            delete - staff profile
+            permission-Initiatestaffdelete
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetPendingActionOnStaffProfile">
+            <summary>
+            Get Pending Action on Staff Profile for profile delete only. 
+            pls keep the id of the actiontopass for later use.
+            this will also show staff that will perform the actiontopass.
+            this show the pending delete
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetPendingActionOnStaffProfileCount">
+            <summary> 
+            get get pending actiontopass on staff profile count
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetPendingProfiledStaff">
+            <summary>
+            Get Pending Profiled to be approved. 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetOtherPendingTask">
+            <summary>
+            Get other Pending task to be approved or deny on kyc. 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetPendingCustomerActivationOrDeactivationTask">
+            <summary>
+            Get CustomerActivationOrDeactivation  Pending task to be approved or deny on kyc. 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetcustomerIndemnityPendingTask">
+            <summary>
+            Get GetCustomerPending task to be approved or deny . 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetAccountIndemnityPendingTask">
+            <summary>
+            Get GetCustomerPending task to be approved or deny. 
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetIndemnityRequest(System.Int32,System.Int32,System.String)">
+            <summary>
+            Get indemnity request from mobile app
+            set indemnitytype=customer for customer indemnity
+            set indemnitytype=account for account indenity
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetApprovedIndemnityRequest(System.Int32,System.Int32,System.String)">
+            <summary>
+            Get approved indemnity
+            set indemnitytype=customer for customer indemnity
+            set indemnitytype=account for account indenity
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetPendingProfiledStaffCount">
+            <summary>
+            Get count of Pending Profiled to be approved
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.DeleteStaffProfile(System.Int32,System.String)">
+            <summary>
+            permission-approvedeletestaff
+            delete staff on exit
+            pass the id of the actiontopass which I supplied on GetPendingDeleteActionOnStaffProfile and pass it here .
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ApproveStaffProfile(System.Int32,System.String)">
+            <summary>
+            approveordeny can either be approve or deny
+            permission-approvestaffprofile
+            pass the id of the actiontopass which I supplied on GetPendingDeleteActionOnStaffProfile and pass it here .
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ApproveTask(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            approveordeny can either be approve or deny
+            permission-approvekyc
+            pass the id of the actiontopass which I supplied on GetOtherPendingTaskKyc and pass it here.
+            shortdescription is needed for kyc otherwise just pass ""
+            typeofdocument for passport use passport
+            typeofdocument for idcard use idcard
+            typeofdocument for signature use signature
+            typeofdocument for utilitybill use utilitybill
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.CountOfPendingKycInitiationAndApproval">
+            <summary>
+            count of status pending initiation and approval
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetCappedTransactionLimit">
+            <summary>
+            Get Capped Transaction  limit
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.InitiateTransactionCappedLimit(Retailbanking.Common.CustomObj.TransactionCappedLimit)">
+            <summary>
+            Set and Initiate Transaction Capped Limit at the Same time
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.GetPendingTransactionCappedLimit">
+            <summary>
+            Get pending Transaction Capped Limit
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ApproveTransactionCappedLimit(System.Int32,System.String)">
+            <summary>
+            Approve Transaction Capped Limit
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ApproveCustomerActivationOrDeactivation(System.Int32,System.String,System.String)">
+            <summary>
+            approveordeny can either be approve or deny
+            permission-customerdeactivation,customeractivation
+            pass the id of the actiontopass which I supplied on GetOtherPendingTaskKyc and pass it here.
+            shortdescription is need for kyc otherwise just pass ""
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ApproveCustomerIndemnity(System.Int32,System.String,System.String)">
+            <summary>
+            approveordeny can either be approve or deny
+            permission-acceptlimit,rejectlimit,customeractivation
+            pass the id of the actiontopass which I supplied on GetOtherPendingTaskKyc and pass it here.
+            shortdescription is need for kyc otherwise just pass ""
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.StaffUserController.ApproveAccountIndemnity(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            approveordeny can either be approve or deny
+            permission-acceptaccountindemnitylimit,rejectaccountindemnitylimit
+            pass the id of the actiontopass which I supplied on GetOtherPendingTaskKyc and pass it here.
+            shortdescription is need for kyc otherwise just pass ""
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionController.GetAUserMobileTrasanctionHistory(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get Mobile trans history.
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionController.FetchTransactionsBydate(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Get Mobile trans history.
+            date pattern- mm-dd-yyyy
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionController.SearchTransactionsBySourceAccount(System.String)">
+            <summary>
+            Search Mobile trans history.
+            by source account
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionController.SearchTransactionsByReference(System.String,System.String,System.String,System.String)">
+            <summary>
+            Search Transaction by reference
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.getTransactionWithIssues(System.Int32,System.Int32)">
+            <summary>
+            Report Transactions with Issues
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.SearchTransactionWithDate(System.String,System.String)">
+            <summary>
+            Search Transactions with date.
+            start and enddate format= dd-mm-yyyy
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.SearchTransactionWithReference(System.String)">
+            <summary>
+            Search Transactions with ref
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.ResolvedTransaction(System.String,System.Boolean,System.String)">
+            <summary>
+            Mark transaction as fixed
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.TotalTransactionByTransfer">
+            <summary>
+            total transaction by transfer
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.TotalTransactionByTransferAndBill">
+            <summary>
+            total transaction by transfer and Bill
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.TotalTransactionByBill">
+            <summary>
+            total transaction by Bill
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.TotalCustomer">
+            <summary>
+            total customer
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.TotalActiveOrInActiveCustomer(System.String)">
+            <summary>
+            total active or inactive customer
+            pass for active or inactive for customer status
+            </summary>
+        </member>
+        <member name="M:PrimeAppAdmin.Controllers.TransactionReportController.TotalActiveAndInActiveCustomer">
+            <summary>
+            total active and inactive customer
+            </summary>
+        </member>
+    </members>
+</doc>
