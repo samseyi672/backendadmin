@@ -108,7 +108,7 @@ namespace PrimeAppAdmin
             var key = Encoding.ASCII.GetBytes(jwtSettings.SecretKey);
             services.AddStackExchangeRedisCache(options =>
             {
-                options.Configuration = "10.20.21.25:6379,password=Trust@@$$Banc_COOperate**#%%$$Group";
+                options.Configuration = "localhost:6379,password=";
                 options.InstanceName = "Prime";
             });
             //  IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey))
@@ -134,12 +134,11 @@ namespace PrimeAppAdmin
             });
             services.AddCors(options =>
             {
-            //http://192.168.113.113:5173
              // http://localhost:5173
                 options.AddPolicy("AllowSpecificOrigin",
                     builder => builder
-                        .WithOrigins("http://192.168.113.113:5173")
-                        .SetIsOriginAllowed((host) => "http://192.168.113.113:5173".Equals(host, StringComparison.InvariantCultureIgnoreCase))
+                        .WithOrigins("http://localhost:5173")
+                        .SetIsOriginAllowed((host) => "http://localhost:5173".Equals(host, StringComparison.InvariantCultureIgnoreCase))
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials()
